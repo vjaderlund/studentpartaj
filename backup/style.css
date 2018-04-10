@@ -1,0 +1,101 @@
+/* BASIC ------------------------------------*/
+
+body {
+  background: black;
+  font-family: 'Arial';
+  font-weight: bold;
+  color: orange;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* LAYOUT ------------------------------------*/
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+header h1 {
+  display: block;
+  margin-bottom: 10%;
+  font-size: 2em;
+  border-bottom: 2px solid orange;
+  margin: 0 10% 0 10%;
+}
+
+main {
+  display: block;
+  background: #cfb37d;
+  width: 74%;
+  padding: 4%;
+  margin: 0 11% 0 11%;
+  color: black;
+  text-align: center;
+}
+
+main p {
+  font-size: 1.3em;
+}
+
+/* NAVIGATION -------------------------------*/
+
+nav {
+  width: 100%;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  padding: 10px;
+  color: orange;
+  font-size: 1.5em;
+}
+
+/* RESPONSIVE --------------------------------*/
+
+@media only screen and (min-width: 480px) {
+  header h1 {
+    font-size: 3em;
+  }
+  main {
+    padding: 3%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header h1 {
+    font-size: 5em;
+  }
+  nav a {
+    color: orange;
+    font-size: 2em;
+  }
+  main h3 {
+    font-size: 2em;
+  }
+}
+
+/* FOOTER -------------------------------------*/
+
+footer {
+  padding: 2%;
+  background: black;
+  color: orange;
+  font-size: 1.4em;
+}
